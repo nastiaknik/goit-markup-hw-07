@@ -19,3 +19,7 @@
   justify-content: center;
   gap: $indent;
 }
+
+@mixin card-set-item($indent, $items) {
+  flex-basis: calc((100% - $indent * $items - 1)) / $items;
+}

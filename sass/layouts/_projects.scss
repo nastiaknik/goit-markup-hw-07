@@ -1,6 +1,5 @@
 .projects {
-  padding-bottom: var(--padding-in-section);
-  padding-top: var(--padding-in-section);
+  @extend %section;
 }
 
 .projects__btn {
@@ -42,6 +41,10 @@
 
 .card-set {
   @include card-set(30px);
+}
+
+.project__card {
+  @include card-set-item($indent: 30px, $items: 9);
 }
 
 .project__link {

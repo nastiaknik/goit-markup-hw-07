@@ -1,6 +1,5 @@
 .features {
-  padding-top: var(--padding-in-section);
-  padding-bottom: var(--padding-in-section);
+  @extend %section;
 }
 
 .features__list {
@@ -9,7 +8,8 @@
 }
 
 .features__item {
-  flex-basis: calc((100% - 3 * 30px) / 4);
+  /*   flex-basis: calc((100% - 3 * 30px) / 4); */
+  @include card-set-item($indent: 30px, $items: 4);
 }
 
 .features__item + .features__item {

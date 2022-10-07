@@ -1,5 +1,6 @@
 .what-we-do {
-  padding-bottom: var(--padding-in-section);
+  @extend %section;
+  padding-top: 0;
 }
 
 .what-we-do__list {
