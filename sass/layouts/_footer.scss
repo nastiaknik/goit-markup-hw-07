@@ -1,6 +1,5 @@
 .footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  @include section(60px);
   background-color: var(--main-color-background);
 }
 

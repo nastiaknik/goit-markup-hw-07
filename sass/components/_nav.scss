@@ -6,8 +6,7 @@
 
 .main-nav {
   display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  @include section(32px);
   font-weight: 500;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;

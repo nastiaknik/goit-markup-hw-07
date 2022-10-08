@@ -1,5 +1,5 @@
 .what-we-do {
-  @extend %section;
+  @include section;
   padding-top: 0;
 }
 

@@ -1,9 +1,8 @@
 .hero-section {
+  @include section(200px);
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 200px;
-  padding-bottom: 200px;
   background-color: var(--main-color-background);
   background-image: linear-gradient(
       var(--background-overlay),

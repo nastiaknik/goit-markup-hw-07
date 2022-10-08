@@ -23,3 +23,8 @@
 @mixin card-set-item($indent, $items) {
   flex-basis: calc((100% - $indent * $items - 1)) / $items;
 }
+
+@mixin section($padding: 94px) {
+  padding-top: $padding;
+  padding-bottom: $padding;
+}

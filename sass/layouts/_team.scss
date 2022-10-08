@@ -1,5 +1,5 @@
 .team-section {
-  @extend %section;
+  @include section;
   background-color: var(--grey-background-color);
 }
 

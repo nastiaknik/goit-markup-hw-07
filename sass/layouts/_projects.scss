@@ -1,5 +1,5 @@
 .projects {
-  @extend %section;
+  @include section;
 }
 
 .projects__btn {
